@@ -1,8 +1,7 @@
-package KataProblems.RowOddTriangle;
+package KataProblems.week2.RowOddTriangle;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.runners.JUnit4;
 
 public class FindRowOddTriangleTest {
     @Test

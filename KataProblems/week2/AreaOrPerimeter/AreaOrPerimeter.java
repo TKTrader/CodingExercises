@@ -1,4 +1,4 @@
-package KataProblems.AreaOrPerimeter;
+package KataProblems.week2.AreaOrPerimeter;
 
 public class AreaOrPerimeter {
     public static int areaOrPerimeter (int l, int w) {

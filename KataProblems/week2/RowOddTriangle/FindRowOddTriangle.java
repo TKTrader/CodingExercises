@@ -1,4 +1,4 @@
-package KataProblems.RowOddTriangle;
+package KataProblems.week2.RowOddTriangle;
 
 public class FindRowOddTriangle {
     // Goal: produce row n

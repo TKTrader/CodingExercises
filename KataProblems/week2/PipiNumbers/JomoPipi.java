@@ -3,6 +3,7 @@ package KataProblems.PipiNumbers;
 import java.math.BigInteger;
 // P(n) = ((((n^2 - P(0))^2 - P(1))^2-P(2))^2...-...P(n-1))^2
 
+// INCOMPLETE, not solution
 public class JomoPipi {
     public static BigInteger pipi(int n) {
         BigInteger[] pipiNum = new BigInteger[n+1];

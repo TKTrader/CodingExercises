@@ -1,8 +1,7 @@
-package KataProblems.AreaOrPerimeter;
+package KataProblems.week2.AreaOrPerimeter;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 public class AreaOrPerimeterTest {
 

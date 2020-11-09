@@ -1,4 +1,4 @@
-package KataProblems.Capitalization;
+package KataProblems.week1.Capitalization;
 
 public class Capitalization {
     public static String[] capitalize(String s){

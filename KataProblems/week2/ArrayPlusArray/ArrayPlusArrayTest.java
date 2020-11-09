@@ -1,8 +1,7 @@
-package KataProblems.ArrayPlusArray;
+package KataProblems.week2.ArrayPlusArray;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 public class ArrayPlusArrayTest {
     @Test

@@ -1,8 +1,4 @@
-package KataProblems.ArrayPlusArray;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+package KataProblems.week2.ArrayPlusArray;
 
 public class ArrayPlusArray {
     public static int arrayPlusArray(int[] arr1, int[] arr2) {

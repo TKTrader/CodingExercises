@@ -1,4 +1,4 @@
-package KataProblems.Capitalization;
+package KataProblems.week1.Capitalization;
 
 import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;

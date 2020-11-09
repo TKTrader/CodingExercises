@@ -1,4 +1,4 @@
-package KataProblems.EncryptThis;
+package KataProblems.week1.EncryptThis1;
 
 public class Kata {
     public static String encryptThis(String text) {
