@@ -1,8 +1,7 @@
-package KataProblems.week2.SimpleconsecutivePairs;
+package KataProblems.week2.SimpleConsecutivePairs;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 public class SimpleConsecutivePairsTest {
     @Test

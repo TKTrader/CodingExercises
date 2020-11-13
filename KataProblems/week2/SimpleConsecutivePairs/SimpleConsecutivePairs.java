@@ -1,4 +1,4 @@
-package KataProblems.week2.SimpleconsecutivePairs;
+package KataProblems.week2.SimpleConsecutivePairs;
 
 public class SimpleConsecutivePairs {
     // Solutions incorrect on CodeWars
