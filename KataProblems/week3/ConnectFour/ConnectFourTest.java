@@ -82,4 +82,92 @@ public class ConnectFourTest {
         ));
         assertEquals("it should return Red", "Red", ConnectFour.whoIsWinner(myList));
     }
+
+    @Test
+    public void testRightDiagonalLeftBottom()
+    {  // Horizontal winner: passed
+        List<String> myList = new ArrayList<String>(Arrays.asList(
+                "A_Yellow",
+                "B_Yellow",
+                "B_Yellow",
+                "C_Yellow",
+                "C_Yellow",
+                "C_Yellow",
+                "D_Red",
+                "D_Yellow",
+                "D_Red",
+                "D_Yellow"
+        ));
+        assertEquals("it should return Yellow", "Yellow", ConnectFour.whoIsWinner(myList));
+    }
+
+    @Test
+    public void testRightDiagonalRightTop()
+    {  // Horizontal winner: passed
+        List<String> myList = new ArrayList<String>(Arrays.asList(
+                "D_Red",
+                "D_Yellow",
+                "D_Red",
+                "E_Yellow",
+                "E_Red",
+                "E_Yellow",
+                "E_Red",
+                "F_Red",
+                "F_Yellow",
+                "F_Red",
+                "F_Yellow",
+                "F_Red",
+                "G_Red",
+                "G_Red",
+                "G_Red",
+                "G_Yellow",
+                "G_Red",
+                "G_Red"
+        ));
+        assertEquals("it should return Red", "Red", ConnectFour.whoIsWinner(myList));
+    }
+
+    @Test
+    public void testLeftDiagonalLeftTop()
+    {  // Horizontal winner: passed
+        List<String> myList = new ArrayList<String>(Arrays.asList(
+                "D_Red",
+                "D_Yellow",
+                "D_Red",
+                "C_Yellow",
+                "C_Red",
+                "C_Yellow",
+                "C_Red",
+                "B_Red",
+                "B_Yellow",
+                "B_Red",
+                "B_Yellow",
+                "B_Red",
+                "A_Red",
+                "A_Red",
+                "A_Red",
+                "A_Yellow",
+                "A_Red",
+                "A_Red"
+        ));
+        assertEquals("it should return Red", "Red", ConnectFour.whoIsWinner(myList));
+    }
+
+    @Test
+    public void testLefttDiagonalRightBottom()
+    {  // Horizontal winner: passed
+        List<String> myList = new ArrayList<String>(Arrays.asList(
+                "G_Yellow",
+                "F_Red",
+                "F_Yellow",
+                "E_Yellow",
+                "E_Yellow",
+                "E_Yellow",
+                "D_Yellow",
+                "D_Yellow",
+                "D_Red",
+                "D_Yellow"
+        ));
+        assertEquals("it should return Yellow", "Yellow", ConnectFour.whoIsWinner(myList));
+    }
 }
