@@ -39,4 +39,11 @@ public class ArraySorterTest {
         int[] a10 = {5};
         assertEquals( new int[][] {{1},{5}} , ArraySorter.sortTwoArrays(a9,a10));
     }
+
+    @Test
+    public void example6(){
+        int[] a9 = {1,2,1};
+        int[] a10 = {1,2,3};
+        assertEquals( new int[][] {{1,2,1},{1,3,2}} , ArraySorter.sortTwoArrays(a9,a10));
+    }
 }
