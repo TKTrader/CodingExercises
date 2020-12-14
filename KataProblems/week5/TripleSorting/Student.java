@@ -22,4 +22,8 @@ public class Student {
     public String getFullName(){
         return name;
     }
+
+    public String getLastName() {
+        return name.split(" ")[0];
+    }
 }

@@ -18,3 +18,11 @@ public class TripleSorter {
         return solution.substring(0,solution.length()-1); // remove last comma
     }
 }
+
+//public class gpaComparator implements Comparator<Student> {
+//
+//    @Override
+//    public int compare(Student student1, Student student2) {
+//        return student1.getGpa().compareTo(student2.getGpa());
+//    }
+//}
