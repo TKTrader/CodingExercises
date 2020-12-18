@@ -29,7 +29,6 @@ public class ColleagueDistance {
             Vertex predecessor = queue.get(0);
             visitedVertices.add(predecessor);
             Set<Vertex> neighbors = neighbourMap.get(predecessor);
-//            int distance = distanceMap.get(queue.get(0)) + 1;
             queue.remove(0);
             for (Vertex neighbor : neighbors) {
                 if (distanceMap.get(predecessor)+1<distanceMap.get(neighbor)){
